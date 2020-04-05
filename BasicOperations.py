@@ -18,8 +18,10 @@ clean_data = ''.join(str(e) for e in new_list)
 clean_data_sent=sent_tokenize(clean_data)
 print("Sentence Tokenizer results:")
 print(clean_data_sent)
+
 clean_data_word=word_tokenize(clean_data)
 print("Word tokenizer results")
+
 print(clean_data_word)
 nlp = spacy.load("en_core_web_sm")
 
@@ -40,3 +42,7 @@ triplets= Remove(tuples_list)
 triplets = ''.join(str(e) for e in triplets)
 triplets = ''.join(str(e) for e in triplets)
 print("Triplets:", triplets)
+
+f = open('output.txt','w')
+f.write(triplets)
+f.close()
