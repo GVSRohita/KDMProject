@@ -1,0 +1,15 @@
+As a trending medical imaging technique,
+Elastography and B-mode (ultrasound) are combined as a
+diagnostic tool to differentiate between benign and malignant
+breast lesions based on their stiffness and geometric properties.
+Image processing techniques are applied to the resulting images
+for feature extraction. Data preprocessing methods and principal
+component analysis (PCA) as a dimensionality reduction
+technique are applied to the dataset. In this paper, supervised
+learning algorithm “support vector machine (SVM)” is used for
+the classification of combined elastogram and B-mode images.
+Model validation is performed with K-fold cross-validation to
+ensure the generalization of the algorithm. Accuracy, confusion
+matrix, and logistic loss are then evaluated for the used
+algorithm. The maximum classification accuracy is 94.12% when
+using SVM with radial basis function (RBF) kernel.

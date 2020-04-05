@@ -1,0 +1,16 @@
+Histopathological image analysis is an important technique for early diagnosis and detection
+of breast cancer in clinical practice. However, it has limited efciency and thus the detection of breast
+cancer is still an open issue in medical image analysis. To improve the early diagnostic accuracy of breast
+cancer and reduce the workload of doctors, we devise a classication framework based on histology images
+by combining deep learning with machine learning methodologies in this paper. Specically, we devise a
+multi-network feature extraction model by using pre-trained deep convolution neural networks (DCNNs),
+develop an effective feature dimension reduction method and train an ensemble support vector machine
+(E-SVM). First, we preprocess the histological images via scale transformation and color enhancement
+methods. Second, the multi-network features are extracted by using four pre-trained DCNNs (e.g., DenseNet-
+121, ResNet-50, multi-level InceptionV3, and multi-level VGG-16). Third, a feature selection method via
+dual-network orthogonal low-rank learning (DOLL) is further developed for performance boosting and
+overtting alleviation. Finally, an E-SVM is trained via fused features and voting strategy to perform the
+classication task, which classies the images into four classes (i.e., benign, in situ carcinomas, invasive
+carcinomas, and normal). We evaluate the proposed method on the public ICIAR 2018 Challenge dataset of
+histology images of breast cancer and achieve a high classication accuracy of 97.70%. Experimental results
+show that our method can achieve quite promising performance and outperform state-of-the-art methods.

@@ -1,0 +1,14 @@
+Recent advances in information technology have induced an explosive growth of data, creating
+a new era of big data. Unfortunately, traditional machine-learning algorithms cannot cope with the new
+characteristics of big data. In this paper, we address the problem of breast cancer prediction in the big data
+context. We considered two varieties of data, namely, gene expression (GE) and DNA methylation (DM).
+The objective of this paper is to scale up the machine-learning algorithms that are used for classication
+by applying each dataset separately and jointly. For this purpose, we chose Apache Spark as a platform.
+In this paper, we selected three different classication algorithms, namely, support vector machine (SVM),
+decision tree, and random forest, to create nine models that help in predicting breast cancer. We conducted
+a comprehensive comparative study using three scenarios with the GE, DM, and GE and DM combined,
+in order to show which of the three types of data would produce the best result in terms of accuracy and
+error rate. Moreover, we performed an experimental comparison between two platforms (Spark and Weka)
+in order to show their behavior when dealing with large sets of data. The experimental results showed that the
+scaled SVM classier in the Spark environment outperforms the other classiers, as it achieved the highest
+accuracy and the lowest error rate with the GE dataset.

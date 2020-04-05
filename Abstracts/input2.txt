@@ -1,0 +1,20 @@
+Breast cancer prognostic modeling is difcult since it is governed by many diverse factors.
+Given the low median survival and large scale breast cancer data, which comes from high throughput
+technology, the accurate and reliable prognosis of breast cancer is becoming increasingly difcult. While
+accurate and timely prognosis may save many patients from going through painful and expensive treatments,
+it may also help oncologists in managing the disease more efciently and effectively. Data analytics
+augmented by machine-learning algorithms have been proposed in past for breast cancer prognosis; and
+however, most of these could not perform well owing to the heterogeneous nature of available data and
+model interpretability related issues. A robust prognostic modeling approach is proposed here whereby a
+Pareto optimal set of deep neural networks (DNNs) exhibiting equally good performance metrics is obtained.
+The set of DNNs is initialized and their hyperparameters are optimized using the evolutionary algorithm,
+NSGAIII. The nal DNN model is selected from the Pareto optimal set of many DNNs using a fuzzy
+inferencing approach. Contrary to using DNNs as the black box, the proposed scheme allows understanding
+how various performance metrics (such as accuracy, sensitivity, F1, and so on) change with changes in hyperparameters.
+This enhanced interpretability can be further used to improve or modify the behavior of DNNs.
+The heterogeneous breast cancer database requires preprocessing for better interpretation of categorical
+variables in order to improve prognosis from classiers. Furthermore, we propose to use a neural networkbased
+entity-embedding method for categorical features with high cardinality. This approach can provide a
+vector representation of categorical features in multidimensional space with enhanced interpretability. It is
+shown with evidence that DNNs optimized using evolutionary algorithms exhibit improved performance
+over other classiers mentioned in this paper.

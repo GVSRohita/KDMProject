@@ -1,0 +1,14 @@
+Breast cancer is very popular between females
+all over the world. However, detecting this cancer in its first
+stages helps in saving lives. Radiologists have the ability to
+predict if the mammography images have cancer or not, but
+they may miss about 15% of them. In this paper, we proposed
+a new method to detect the breast cancer with high accuracy.
+This method consists of two main parts, in the first part the
+image processing techniques are used to prepare the
+mammography images for feature and pattern extraction
+process. The extracted features are utilized as an input for a
+two types of supervised learning models, which are Back
+Propagation Neural Network (BPNN) model and the Logistic
+Regression (LR) model with comparing the result and the
+accuracy for the both models.

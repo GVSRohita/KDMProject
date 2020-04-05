@@ -1,0 +1,9 @@
+A computer-aided diagnosis (CAD) system based on mammograms enables early breast
+cancer detection, diagnosis, and treatment. However, the accuracy of the existing CAD systems remains
+unsatisfactory. This paper explores a breast CAD method based on feature fusion with convolutional neural
+network (CNN) deep features. First, we propose a mass detection method based on CNN deep features
+and unsupervised extreme learning machine (ELM) clustering. Second, we build a feature set fusing
+deep features, morphological features, texture features, and density features. Third, an ELM classier is
+developed using the fused feature set to classify benign and malignant breast masses. Extensive experiments
+demonstrate the accuracy and efciency of our proposed mass detection and breast cancer classication
+method.

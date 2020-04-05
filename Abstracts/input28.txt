@@ -1,0 +1,20 @@
+The increasing availability of electronic health records (EHRs) creates opportunities for automated extraction of
+information from clinical text. We hypothesized that natural language processing (NLP) could substantially reduce
+the burden of manual abstraction in studies examining outcomes, like cancer recurrence, that are documented in
+
+unstructured clinical text, such as progress notes, radiology reports, and pathology reports. We developed an NLP-
+based system using open-source software to process electronic clinical notes from 1995 to 2012 for women with
+
+early-stage incident breast cancers to identify whether and when recurrences were diagnosed. We developed and
+evaluated the system using clinical notes from 1,472 patients receiving EHR-documented care in an integrated
+
+health care system in the Pacific Northwest. A separate study provided the patient-level reference standard for re-
+currence status and date. The NLP-based system correctly identified 92% of recurrences and estimated diagnosis
+
+dates within 30 days for 88% of these. Specificity was 96%. The NLP-based system overlooked 5 of 65 recurrences,
+
+4 because electronic documents were unavailable. The NLP-based system identified 5 other recurrences incor-
+rectly classified as nonrecurrent in the reference standard. If used in similar cohorts, NLP could reduce by 90%
+
+the number of EHR charts abstracted to identify confirmed breast cancer recurrence cases at a rate comparable
+to traditional abstraction.

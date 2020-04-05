@@ -1,0 +1,13 @@
+The diagnosis of breast cancer histology images with hematoxylin and eosin stained is
+non-trivial, labor-intensive and often leads to a disagreement between pathologists. Computer-assisted diagnosis
+systems contribute to help pathologists improve diagnostic consistency and efciency.With the recent
+advances in deep learning, convolutional neural networks (CNNs) have been successfully used for histology
+images analysis. The classication of breast cancer histology images into normal, benign, and malignant
+sub-classes is related to cells' density, variability, and organization along with overall tissue structure and
+morphology. Based on this, we extract both smaller and larger size patches from histology images, including
+cell-level and tissue-level features, respectively. However, there are some sampled cell-level patches that
+do not contain enough information that matches the image tag. Therefore, we propose a patches' screening
+method based on the clustering algorithm and CNN to select more discriminative patches. The approach
+proposed in this paper is applied to the 4-class classication of breast cancer histology images and achieves
+95% accuracy on the initial test set and 88.89% accuracy on the overall test set. The results are competitive
+compared to the results of other state-of-the-art methods.

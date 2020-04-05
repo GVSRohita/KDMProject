@@ -1,0 +1,14 @@
+Detection of mitotic tumor cells per tissue area is one of the critical markers of breast cancer
+prognosis. The aim of this paper is to develop a method for the automatic detection of mitotic figures from
+breast cancer histological slides using a partially supervised deep learning framework. Unlike the previous
+literature, which has focused on solving the problem of mitosis detection in the weakly annotated datasets
+using centroid pixel labels (weak labels) only without taking advantage of the available pixel-level labels
+(strong labels) of other datasets, in this paper, we design a novel partially supervised framework based on
+two parallel deep fully convolutional networks. One of them is trained using weak labels and the other is
+trained using strong labels, together with a weight transfer function. In the detection phase, we fuse the
+segmentation maps produced by the two networks to obtain the final mitosis detections. Our system exploits
+the available large sets of mitosis detection samples with mitosis centroid annotation, such as the 2014 ICPR
+dataset and the AMIDA13 dataset, and only a small set of samples with the annotation of all mitosis pixels,
+such as the 2012 ICPR dataset, to perform a more accurate mitosis detection on weakly labeled data. This
+enables us to outperform all previous mitosis detection systems by achieving F-scores of 0.575 and 0.698
+on the 2014 ICPR dataset and the AMIDA13 dataset respectively.

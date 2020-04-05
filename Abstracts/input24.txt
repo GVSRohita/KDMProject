@@ -1,0 +1,27 @@
+Motivation: Traditional methods in epidemiology are based on the development of cohorts of individ-
+uals which are monitored during a certain period of time. The digitalization of stored information in
+
+hospitals now allows for the exploitation of medical data initially gathered for other purposes than epi-
+demiology. More specifically, hospitals continuously gather huge amounts of textual data in electronic
+
+health records (EHRs). Storing health data in text format is convenient, but without processing, manual
+search and analysis operations on such data become tedious. Automating the extraction of information
+from vast amounts of EHRs would provide new data sources for epidemiology and other research
+fields. In recent years, different studies reported the use of natural language processing (NLP) tools to
+structure the information contained in electronic health records and perform statistical analysis on this
+
+structured information. The main difficulties with the existing approaches is the requirement of syno-
+nyms or ontology dictionaries, that are mostly available in English only and do not include local or
+
+custom notations. Therefore, we experimented the creation of a team composed of oncologists as
+domain experts and data scientists to develop a custom NLP-based system to process and structure
+14,029 textual clinical reports from 2000 to 2017 of patients suffering from breast cancer.
+Results: The tool relies on the combination of standard text mining techniques and an advanced
+synonym detection method. It allows for a global analysis by retrieval of indicators such as medical
+history, tumor characteristics, therapeutic responses, recurrences and prognosis. The versatility of the
+method allows to obtain new indicators with ease, thus opening up the path for retrospective studies
+with a substantial reduction of the amount of manual work. With no need for biomedical annotators or
+pre-defined ontologies, our structuring method reached an extraction accuracy that ranges from 70 to
+96.8 % for several concepts of interest, according to a comparison with a manually structured file.
+Unlike existing method, the text structuring technique presented in this paper is language agnostic, and
+does not require to complete an existing corpus with local or new notations.
