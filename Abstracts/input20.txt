@@ -1,13 +1,0 @@
-Nowadays, breast cancer has increasingly threatened the health of human, especially females.
-However, breast cancer is still hard to detect in the early stage, and the diagnostic procedure can be time-
-consuming with abundant expertise needed. In this paper, we explored the deep learning algorithms in
-emerging photoacoustic tomography for breast cancer diagnostics. Specically, we used a pre-processing
-algorithm to enhance the quality and uniformity of input breast cancer images and a transfer learning method
-to achieve better classication performance. Besides, by comparing the area under the curve, sensitivity,
-and specicity of support vector machine with AlexNet and GoogLeNet, it can be concluded that the
-combination of deep learning and photoacoustic imaging has the potential to achieve important impact on
-clinical diagnostics. Finally, according to the breast imaging reporting and data-system levels, we divided
-breast cancer images into six grades and designed a segmentation software for identifying the six grades
-of breast cancer. Then, we tested based on MAMMOGRAPHYC IMAGES DATABASE FROM LAPIMO
-EESC/USP (Laboratory of Analysis and Processing of Medical and Dental Images) to verify the accuracy
-of our segmentation method, which showed a satisfactory result.

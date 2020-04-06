@@ -1,12 +1,0 @@
-Accurate diagnosis of breast cancer in histopathology images is challenging due to the
-heterogeneity of cancer cell growth as well as a variety of benign breast tissue proliferative lesions. In this
-paper, we propose a practical and self-interpretable invasive cancer diagnosis solution. With minimum
-annotation information, the proposed method mines contrast patterns between normal and malignant images
-in a weak-supervised manner and generate a probability map of abnormalities to verify its reasoning.
-Particularly, a fully convolutional autoencoder is used to learn the dominant structural patterns among normal
-image patches. Patches that do not share the characteristics of this normal population are detected and
-analyzed by one-class support vector machine and one-layer neural network.We apply the proposed method
-to a public breast cancer image set. Our results, in consultation with a senior pathologist, demonstrate that the
-proposed method outperforms existing methods. The obtained probability map could benet the pathology
-practice by providing visualized verication data and potentially leads to a better understanding of datadriven
-diagnosis solutions.
