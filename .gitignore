@@ -1,1 +1,5 @@
 venv
+model_combined.gensim
+model_combined.gensim.expElogbeta.npy
+model_combined.gensim.id2word
+model_combined.gensim.state
